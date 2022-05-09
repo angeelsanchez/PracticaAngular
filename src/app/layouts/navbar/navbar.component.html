@@ -1,1 +1,210 @@
-<p>navbar works!</p>
+<div class="container-fluid top-header">
+  <div class="container"><p>FREE SHIPING FOR NEW USERS</p></div>
+</div>
+
+<div class="container-fluid bottom-header">
+  <div class="container-lg">
+    <nav class="navbar navbar-expand-lg">
+      <div class="navbar-toggler">
+        <button
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navBarList01, #navBarList02"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><fa-icon [icon]="faComment"></fa-icon
+          ></span>
+        </button>
+        <span> Shopper. </span>
+      </div>
+      <div
+        class="collapse navbar-collapse justify-content-center col-5"
+        id="navBarList01"
+      >
+        <ul class="navbar-nav justify-content-between">
+          <li
+            class="nav-item"
+            [routerLinkActive]="['active']"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a
+              class="nav-link"
+              [routerLink]="['']"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+              >Home</a
+            >
+          </li>
+          <li
+            class="nav-item"
+            [routerLinkActive]="['active']"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a
+              class="nav-link"
+              [routerLink]="['catalog']"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+              >Catalog</a
+            >
+          </li>
+          <li
+            class="nav-item"
+            [routerLinkActive]="['active']"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a
+              class="nav-link"
+              [routerLink]="['products']"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+              >Products</a
+            >
+          </li>
+
+          <li
+            class="nav-item"
+            [routerLinkActive]="['active']"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a
+              class="nav-link"
+              [routerLink]="['blog']"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+              >Blog</a
+            >
+          </li>
+          <li
+            class="nav-item"
+            [routerLinkActive]="['elements']"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a
+              class="nav-link"
+              [routerLink]="['elements']"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+              >Elements</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div
+        class="collapse navbar-collapse justify-content-center col-2"
+        id="company-brand"
+      >
+        <a class="navbar-brand">Shopping</a>
+      </div>
+      <div
+        class="collapse navbar-collapse justify-content-center col-5"
+        id="navBarList02"
+      >
+        <ul class="navbar-nav justify-content-between">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >United States</a
+            >
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a
+                  class="dropdown-item"
+                  data-bs-toggle="collapse"
+                  data-bs-target=".navbar-collapse.show"
+                  >United States</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  data-bs-toggle="collapse"
+                  data-bs-target=".navbar-collapse.show"
+                  >Spain</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >USD</a
+            >
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a
+                  class="dropdown-item"
+                  data-bs-toggle="collapse"
+                  data-bs-target=".navbar-collapse.show"
+                  >USD</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  data-bs-toggle="collapse"
+                  data-bs-target=".navbar-collapse.show"
+                  >EUR</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li
+            class="nav-item"
+            [routerLinkActive]="['active']"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a class="nav-link">
+              <fa-icon [icon]="faUser"></fa-icon>
+              <a
+                class="navbar-toggler icon-name"
+                data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse.show"
+                >Users</a
+              >
+            </a>
+          </li>
+          <li
+            class="nav-item"
+            [routerLinkActive]="['active']"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a class="nav-link">
+              <fa-icon [icon]="faHeart"></fa-icon>
+              <a
+                class="navbar-toggler icon-name"
+                data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse.show"
+                >Search</a
+              >
+            </a>
+          </li>
+          <li
+            class="nav-item"
+            [routerLinkActive]="['active']"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a class="nav-link">
+              <fa-icon [icon]="faCartShopping"></fa-icon>
+              <a
+                class="navbar-toggler icon-name"
+                data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse.show"
+                >Shopping Cart</a
+              >
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>

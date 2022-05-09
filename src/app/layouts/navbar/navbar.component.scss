@@ -1,0 +1,82 @@
+.top-header {
+  background-color: black;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+
+    color: white;
+
+    p {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+.bottom-header {
+  background-color: whitesmoke;
+
+  .container-lg {
+    .navbar {
+      .active {
+        a {
+          color: red;
+          text-decoration: underline;
+        }
+      }
+
+      a {
+        font-size: 1.2em;
+        color: black;
+      }
+
+      .navbar-toggler {
+        padding: 4px 0;
+
+        button {
+          border: 0;
+          color: red;
+          background-color: black;
+          border-radius: 5px;
+        }
+
+        span {
+          padding: 5px;
+          color: black;
+        }
+      }
+
+      #company-brand {
+        .navbar-brand {
+          margin: 0;
+          font-size: 1.6em;
+          font-weight: bold;
+        }
+      }
+
+      #navBarList02 {
+        color: var(--on-background-color);
+
+        .navbar-nav {
+          .dropdown {
+            .dropdown-menu {
+              a {
+                color: black;
+              }
+            }
+          }
+
+          .nav-item {
+            .nav-link {
+              .icon-name {
+                font-size: 1em;
+                padding: 0 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
