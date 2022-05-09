@@ -13,4 +13,9 @@ export class HomeServiceService {
     const urlEndpoint: string = 'http://localhost:3002/carousel';
     return this.http.get<Iimage[]>(urlEndpoint);
   }
+
+  public fotosBanner(): Observable<Iimage[]> {
+    const urlEndpoint: string = 'http://localhost:3002/banner';
+    return this.http.get<Iimage[]>(urlEndpoint);
+  }
 }

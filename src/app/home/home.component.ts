@@ -9,17 +9,29 @@ import { HomeServiceService } from './services/home-service.service';
 })
 export class HomeComponent implements OnInit {
   imagesCarousel: Iimage[] = [];
+  imagesBanner: Iimage[] = [];
 
   constructor(private homeService: HomeServiceService) {}
 
   ngOnInit(): void {
     this.loadCarousel();
+    this.loadBanner();
   }
 
   public loadCarousel(): void {
     this.homeService.fotosCarousel().subscribe({
       next: (images) => {
         this.imagesCarousel = images;
+      },
+      error: (err) => {
+        console.log(err);
+      },
+    });
+  }
+  public loadBanner(): void {
+    this.homeService.fotosBanner().subscribe({
+      next: (images) => {
+        this.imagesBanner = images;
       },
       error: (err) => {
         console.log(err);
