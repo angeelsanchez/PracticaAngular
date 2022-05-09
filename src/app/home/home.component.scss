@@ -4,6 +4,7 @@ main {
     margin-bottom: 50px;
 
     .carousel {
+      margin-bottom: 60px;
       .carousel-indicators {
         button {
           height: 10px;
@@ -17,5 +18,10 @@ main {
         height: 60vh;
       }
     }
+  }
+  h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
   }
 }

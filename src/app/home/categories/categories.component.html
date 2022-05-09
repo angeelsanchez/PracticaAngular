@@ -1,0 +1,10 @@
+<div class="category-item" *ngIf="categorie">
+  <a [routerLink]="['catalog/' + categorie]">
+    <img
+      class="img-fluid"
+      [src]="categorie.image.src"
+      [alt]="categorie.image.alt"
+    />
+  </a>
+  <h3>{{ categorie.title | titlecase }}</h3>
+</div>
