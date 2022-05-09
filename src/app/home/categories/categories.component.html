@@ -1,5 +1,5 @@
 <div class="category-item" *ngIf="categorie">
-  <a [routerLink]="['catalog/' + categorie]">
+  <a [routerLink]="['catalog/articles' | lowercase]">
     <img
       class="img-fluid"
       [src]="categorie.image.src"
