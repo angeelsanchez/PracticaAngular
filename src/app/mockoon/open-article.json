@@ -5,10 +5,10 @@
     "price": 50,
     "discount": 40,
     "image": {
-      "src": "https://source.unsplash.com/LHGZSCpvawQ/300x400",
+      "src": "https://source.unsplash.com/LHGZSCpvawQ/500x700",
       "alt": "Gorra Nike Roja"
     },
-    "small-image": {
+    "smallImage": {
       "src": "https://source.unsplash.com/LHGZSCpvawQ/100x100",
       "alt": "Gorra Nike Roja"
     },
@@ -23,10 +23,10 @@
     "price": 80,
     "discount": 0,
     "image": {
-      "src": "https://source.unsplash.com/s-gYAbQToXk/300x400",
+      "src": "https://source.unsplash.com/s-gYAbQToXk/500x700",
       "alt": "Zapatillas nike negras"
     },
-    "small-image": {
+    "smallImage": {
       "src": "https://source.unsplash.com/s-gYAbQToXk/100x100",
       "alt": "Zapatillas nike negras"
     },
@@ -41,10 +41,10 @@
     "price": 30,
     "discount": 0,
     "image": {
-      "src": "https://source.unsplash.com/d8CV2pvlC_U/300x400",
+      "src": "https://source.unsplash.com/d8CV2pvlC_U/500x700",
       "alt": "Sudadera blanca"
     },
-    "small-image": {
+    "smallImage": {
       "src": "https://source.unsplash.com/d8CV2pvlC_U/100x100",
       "alt": "Sudadera blanca"
     },
@@ -59,10 +59,10 @@
     "price": 15.99,
     "discount": 10,
     "image": {
-      "src": "https://source.unsplash.com/jNd-P3bo8gk/300x400",
+      "src": "https://source.unsplash.com/jNd-P3bo8gk/500x700",
       "alt": "Camisa basica verde"
     },
-    "small-image": {
+    "smallImage": {
       "src": "https://source.unsplash.com/jNd-P3bo8gk/100x100",
       "alt": "Camisa basica verde"
     },
@@ -77,10 +77,10 @@
     "price": 55,
     "discount": 30,
     "image": {
-      "src": "https://source.unsplash.com/5raPrOhbKQo/300x400",
+      "src": "https://source.unsplash.com/5raPrOhbKQo/500x700",
       "alt": "Pantalon rosa mujer"
     },
-    "small-image": {
+    "smallImage": {
       "src": "https://source.unsplash.com/5raPrOhbKQo/100x100",
       "alt": "Pantalon rosa mujer"
     },
@@ -95,10 +95,10 @@
     "price": 20,
     "discount": 0,
     "image": {
-      "src": "https://source.unsplash.com/TXyOYBLRWM8/300x400",
+      "src": "https://source.unsplash.com/TXyOYBLRWM8/500x700",
       "alt": "Gorro de lana rosa"
     },
-    "small-image": {
+    "smallImage": {
       "src": "https://source.unsplash.com/TXyOYBLRWM8/100x100",
       "alt": "Gorro de lana rosa"
     },
@@ -113,10 +113,10 @@
     "price": 110,
     "discount": 0,
     "image": {
-      "src": "https://source.unsplash.com/SxAXphIPWeg/300x400",
+      "src": "https://source.unsplash.com/SxAXphIPWeg/500x700",
       "alt": "Air Jordan blancas"
     },
-    "small-image": {
+    "smallImage": {
       "src": "https://source.unsplash.com/SxAXphIPWeg/100x100",
       "alt": "Air Jordan blancas"
     },
@@ -131,10 +131,10 @@
     "price": 8,
     "discount": 0,
     "image": {
-      "src": "https://source.unsplash.com/qLhOOuVHDtE/300x400",
+      "src": "https://source.unsplash.com/qLhOOuVHDtE/500x700",
       "alt": "Guantes para la nieve"
     },
-    "small-image": {
+    "smallImage": {
       "src": "https://source.unsplash.com/qLhOOuVHDtE/100x100",
       "alt": "Guantes para la nieve"
     },

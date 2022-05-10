@@ -41,6 +41,6 @@ export class ArticleComponent implements OnInit {
   }
 
   public navToArticle(id: number): void {
-    this.router.navigate(['catalog/open-article', id]);
+    this.router.navigate(['catalog/articles/open-article', id]);
   }
 }

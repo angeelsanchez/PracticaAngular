@@ -1,1 +1,61 @@
-<p>open-article works!</p>
+<div class="container-fluid">
+  <div class="container" *ngIf="openArticles">
+    <div class="row">
+      <div class="col-lg-5">
+        <img
+          src="{{ openArticles.image.src }}"
+          alt="{{ openArticles.image.alt }}"
+        />
+      </div>
+      <div class="col-lg-5">
+        <p>{{ openArticles.category }}</p>
+        <h2>{{ openArticles.title }}</h2>
+        <p class="price">
+          <span [ngClass]="discount ? 'line' : ''">
+            {{ openArticles.price | currency: "EUR":"symbol":"2.2-2":"es" }}
+          </span>
+          <span class="discount" *ngIf="discount">
+            {{ openArticles.discount | currency: "EUR":"symbol":"2.2-2":"es" }}
+          </span>
+        </p>
+        <p>
+          Color: <strong>{{ openArticles.color }}</strong>
+        </p>
+        <img
+          src="{{ openArticles.smallImage.src }}"
+          alt="{{ openArticles.smallImage.alt }}"
+        />
+        <p>Talla: <strong>Escoge una talla</strong></p>
+        <div class="row sizes">
+          <div
+            class="col-lg-2 col-md-2 col-sm-2 col-2"
+            *ngFor="let size of sizes"
+          >
+            <button [ngClass]="sizeStock(size) ? 'inStock' : 'outOfStock'">
+              {{ size }}
+            </button>
+          </div>
+        </div>
+        <p>
+          <a href=""> <fa-icon [icon]="faRuler"></fa-icon> Size Chart</a>
+        </p>
+        <div class="row">
+          <div class="row bottom-buttons">
+            <div class="col-lg-6">
+              <button class="waitList">
+                <fa-icon [icon]="faEnvelope"></fa-icon>
+                Wait List
+              </button>
+            </div>
+            <div class="col-lg-6">
+              <button class="wishList">
+                Wishlist
+                <fa-icon [icon]="faHeart"></fa-icon>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

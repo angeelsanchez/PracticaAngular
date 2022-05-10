@@ -1,0 +1,50 @@
+.container-fluid {
+  margin-top: 30px;
+  .price {
+    color: gray;
+    font-size: 1.5em;
+    font-weight: bolder;
+
+    .line {
+      text-decoration: line-through;
+    }
+    .discount {
+      color: red;
+    }
+  }
+  .sizes {
+    margin-bottom: 20px;
+    button {
+      margin: 5px 0;
+      border: 0;
+      height: 40px;
+      width: 60px;
+      font-weight: bolder;
+    }
+
+    .outOfStock {
+      color: gray;
+      text-decoration: line-through;
+    }
+  }
+  a {
+    color: black;
+  }
+}
+
+.bottom-buttons {
+  font-size: 1.3em;
+  margin-top: 20px;
+  .waitList {
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+  }
+
+  .wishList {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+  }
+}
