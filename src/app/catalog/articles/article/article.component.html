@@ -1,4 +1,8 @@
-<div class="card bg-light text-black" *ngIf="article">
+<div
+  class="card bg-light text-black"
+  *ngIf="article"
+  (click)="navToArticle(article.id)"
+>
   <img class="card-img" [src]="article.image.src" [alt]="article.image.alt" />
   <div class="card-img-overlay">
     <div class="favourite">

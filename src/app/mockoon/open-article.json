@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "title": "Gorra Nike Roja",
+    "price": 50,
+    "discount": 40,
+    "image": {
+      "src": "https://source.unsplash.com/LHGZSCpvawQ/300x400",
+      "alt": "Gorra Nike Roja"
+    },
+    "small-image": {
+      "src": "https://source.unsplash.com/LHGZSCpvawQ/100x100",
+      "alt": "Gorra Nike Roja"
+    },
+    "category": "Gorras",
+    "color": "Rojo",
+    "size": ["3XS", "2XS", "XS", "SM", "MD", "LG", "XL", "2XL", "3XL", "4XL"],
+    "stock": 58
+  },
+  {
+    "id": 2,
+    "title": "Zapatillas nike negras",
+    "price": 80,
+    "discount": 0,
+    "image": {
+      "src": "https://source.unsplash.com/s-gYAbQToXk/300x400",
+      "alt": "Zapatillas nike negras"
+    },
+    "small-image": {
+      "src": "https://source.unsplash.com/s-gYAbQToXk/100x100",
+      "alt": "Zapatillas nike negras"
+    },
+    "category": "Zapatillas",
+    "color": "Negro",
+    "size": ["3XS", "2XS", "LG", "XL", "2XL", "3XL"],
+    "stock": 10
+  },
+  {
+    "id": 3,
+    "title": "Sudadera blanca",
+    "price": 30,
+    "discount": 0,
+    "image": {
+      "src": "https://source.unsplash.com/d8CV2pvlC_U/300x400",
+      "alt": "Sudadera blanca"
+    },
+    "small-image": {
+      "src": "https://source.unsplash.com/d8CV2pvlC_U/100x100",
+      "alt": "Sudadera blanca"
+    },
+    "category": "Sudaderas",
+    "color": "Blanca",
+    "size": [],
+    "stock": 0
+  },
+  {
+    "id": 4,
+    "title": "Camisa basica verde",
+    "price": 15.99,
+    "discount": 10,
+    "image": {
+      "src": "https://source.unsplash.com/jNd-P3bo8gk/300x400",
+      "alt": "Camisa basica verde"
+    },
+    "small-image": {
+      "src": "https://source.unsplash.com/jNd-P3bo8gk/100x100",
+      "alt": "Camisa basica verde"
+    },
+    "category": "Camisas",
+    "color": "Verde",
+    "size": ["3XS", "SM", "MD", "LG", "4XL"],
+    "stock": 13
+  },
+  {
+    "id": 5,
+    "title": "Pantalon rosa mujer",
+    "price": 55,
+    "discount": 30,
+    "image": {
+      "src": "https://source.unsplash.com/5raPrOhbKQo/300x400",
+      "alt": "Pantalon rosa mujer"
+    },
+    "small-image": {
+      "src": "https://source.unsplash.com/5raPrOhbKQo/100x100",
+      "alt": "Pantalon rosa mujer"
+    },
+    "category": "Pantalones",
+    "color": "Rosa",
+    "size": ["3XS", "2XS", "4XL"],
+    "stock": 4
+  },
+  {
+    "id": 6,
+    "title": "Gorro de lana rosa",
+    "price": 20,
+    "discount": 0,
+    "image": {
+      "src": "https://source.unsplash.com/TXyOYBLRWM8/300x400",
+      "alt": "Gorro de lana rosa"
+    },
+    "small-image": {
+      "src": "https://source.unsplash.com/TXyOYBLRWM8/100x100",
+      "alt": "Gorro de lana rosa"
+    },
+    "category": "Gorras",
+    "color": "Rosa",
+    "size": ["3XS", "2XS", "XS", "SM", "MD", "LG"],
+    "stock": 12
+  },
+  {
+    "id": 7,
+    "title": "Air Jordan blancas",
+    "price": 110,
+    "discount": 0,
+    "image": {
+      "src": "https://source.unsplash.com/SxAXphIPWeg/300x400",
+      "alt": "Air Jordan blancas"
+    },
+    "small-image": {
+      "src": "https://source.unsplash.com/SxAXphIPWeg/100x100",
+      "alt": "Air Jordan blancas"
+    },
+    "category": "Zapatos",
+    "color": "Blanco",
+    "size": ["3XS"],
+    "stock": 1
+  },
+  {
+    "id": 8,
+    "title": "Guantes para la nieve",
+    "price": 8,
+    "discount": 0,
+    "image": {
+      "src": "https://source.unsplash.com/qLhOOuVHDtE/300x400",
+      "alt": "Guantes para la nieve"
+    },
+    "small-image": {
+      "src": "https://source.unsplash.com/qLhOOuVHDtE/100x100",
+      "alt": "Guantes para la nieve"
+    },
+    "category": "Guantes",
+    "color": "Negro",
+    "size": ["3XS", "2XS", "4XL"],
+    "stock": 20
+  }
+]

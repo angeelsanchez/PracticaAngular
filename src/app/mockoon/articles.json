@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Gorra Nike Roja",
     "price": 50,
-    "discount": 0,
+    "discount": 40,
     "image": {
       "src": "https://source.unsplash.com/LHGZSCpvawQ/300x400",
       "alt": "Gorra Nike Roja"
@@ -35,8 +35,8 @@
   {
     "id": 4,
     "title": "Camisa basica verde",
-    "price": 8,
-    "discount": 0,
+    "price": 15.99,
+    "discount": 10,
     "image": {
       "src": "https://source.unsplash.com/jNd-P3bo8gk/300x400",
       "alt": "Camisa basica verde"
@@ -47,7 +47,7 @@
     "id": 5,
     "title": "Pantalon rosa mujer",
     "price": 55,
-    "discount": 0,
+    "discount": 30,
     "image": {
       "src": "https://source.unsplash.com/5raPrOhbKQo/300x400",
       "alt": "Pantalon rosa mujer"

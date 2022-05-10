@@ -3,6 +3,7 @@ import { IArticles } from 'src/app/home/models/articles.interface';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
 import { registerLocaleData } from '@angular/common';
 import localeES from '@angular/common/locales/es';
+import { Router } from '@angular/router';
 registerLocaleData(localeES, 'es');
 
 @Component({
@@ -16,7 +17,7 @@ export class ArticleComponent implements OnInit {
   favourite: boolean = false;
   faHeart = faHeart;
 
-  constructor() {}
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
     this.setDiscount();
@@ -37,5 +38,9 @@ export class ArticleComponent implements OnInit {
         this.favourite = true;
       }
     }
+  }
+
+  public navToArticle(id: number): void {
+    this.router.navigate(['catalog/open-article', id]);
   }
 }
