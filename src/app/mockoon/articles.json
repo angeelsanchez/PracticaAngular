@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Gorra Nike Roja",
+    "price": 50,
+    "discount": 0,
+    "image": {
+      "src": "https://source.unsplash.com/LHGZSCpvawQ/300x400",
+      "alt": "Gorra Nike Roja"
+    },
+    "favourite": true
+  },
+  {
+    "id": 2,
+    "title": "Zapatillas nike negras",
+    "price": 80,
+    "discount": 0,
+    "image": {
+      "src": "https://source.unsplash.com/s-gYAbQToXk/300x400",
+      "alt": "Zapatillas nike negras"
+    },
+    "favourite": false
+  },
+  {
+    "id": 3,
+    "title": "Sudadera blanca",
+    "price": 30,
+    "discount": 0,
+    "image": {
+      "src": "https://source.unsplash.com/d8CV2pvlC_U/300x400",
+      "alt": "Sudadera blanca"
+    },
+    "favourite": true
+  },
+  {
+    "id": 4,
+    "title": "Camisa basica verde",
+    "price": 8,
+    "discount": 0,
+    "image": {
+      "src": "https://source.unsplash.com/jNd-P3bo8gk/300x400",
+      "alt": "Camisa basica verde"
+    },
+    "favourite": false
+  },
+  {
+    "id": 5,
+    "title": "Pantalon rosa mujer",
+    "price": 55,
+    "discount": 0,
+    "image": {
+      "src": "https://source.unsplash.com/5raPrOhbKQo/300x400",
+      "alt": "Pantalon rosa mujer"
+    },
+    "favourite": false
+  },
+  {
+    "id": 6,
+    "title": "Gorro de lana rosa",
+    "price": 20,
+    "discount": 0,
+    "image": {
+      "src": "https://source.unsplash.com/TXyOYBLRWM8/300x400",
+      "alt": "Gorro de lana rosa"
+    },
+    "favourite": false
+  },
+  {
+    "id": 7,
+    "title": "Air Jordan blancas",
+    "price": 110,
+    "discount": 0,
+    "image": {
+      "src": "https://source.unsplash.com/SxAXphIPWeg/300x400",
+      "alt": "Air Jordan blancas"
+    },
+    "favourite": true
+  },
+  {
+    "id": 8,
+    "title": "Guantes para la nieve",
+    "price": 8,
+    "discount": 0,
+    "image": {
+      "src": "https://source.unsplash.com/qLhOOuVHDtE/300x400",
+      "alt": "Guantes para la nieve"
+    },
+    "favourite": false
+  }
+]

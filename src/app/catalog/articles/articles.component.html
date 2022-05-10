@@ -1,1 +1,9 @@
-<p>articles works!</p>
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3" *ngFor="let article of articles">
+        <app-article [article]="article"></app-article>
+      </div>
+    </div>
+  </div>
+</div>
