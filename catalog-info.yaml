@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: PracticaAngular
+  annotations:
+    github.com/project-slug: angeelsanchez/PracticaAngular
+spec:
+  type: other
+  lifecycle: unknown
+  owner: devs
